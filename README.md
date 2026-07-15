@@ -1,4 +1,6 @@
-# AuscultPen 听诊笔
+<div align="center">
+  <img src="assets/images/title.png" alt="AuscultPen 听诊笔" width="320">
+</div>
 
 AuscultPen（听诊笔）是一款专为住院医师打造的智能病历管理APP。基于Flutter与Material 3设计，支持语音生成大病历与首程、拍照上传病历、AI解析检验检查及待办事项管理，助力临床工作高效完成。应用采用本地存储机制，严格保障患者隐私安全。旨在解放医生双手，简化文书负担，让住院医师更专注于诊疗本身。
 
@@ -95,6 +97,13 @@ lib/
 本项目基于 [Apache License 2.0](LICENSE) 开源。
 
 Copyright © 2016-2026 Torway Studio. All rights reserved.
+
+## 应用预览
+
+<div align="center">
+  <img src="assets/images/yl_1.jpg" alt="应用预览1" width="45%" style="margin: 0 10px;">
+  <img src="assets/images/yl_2.jpg" alt="应用预览2" width="45%" style="margin: 0 10px;">
+</div>
 
 ## 免责声明
 

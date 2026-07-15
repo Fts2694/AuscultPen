@@ -257,7 +257,6 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
       MaterialPageRoute(
         builder: (context) => _CustomLicensePage(
           applicationName: 'AuscultPen 听诊笔',
-          applicationVersion: '0.5.1',
           applicationLegalese: 'Copyright © 2016-2026 Torway Studio. All rights reserved.',
         ),
       ),
@@ -634,12 +633,10 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
 /// 自定义开源许可页面（隐藏 Powered by Flutter）
 class _CustomLicensePage extends StatefulWidget {
   final String applicationName;
-  final String applicationVersion;
   final String applicationLegalese;
 
   const _CustomLicensePage({
     required this.applicationName,
-    required this.applicationVersion,
     required this.applicationLegalese,
   });
 
@@ -694,14 +691,6 @@ class _CustomLicensePageState extends State<_CustomLicensePage> {
                           style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          '版本 ${widget.applicationVersion}',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Colors.grey[600],
                           ),
                         ),
                         const SizedBox(height: 12),
